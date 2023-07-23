@@ -1,0 +1,24 @@
+{
+    "defaults": {
+        "reporters": [
+            "cli",
+            [
+                "json",
+                {
+                    "fileName": "./results.json"
+                }
+            ]
+        ],
+        "standard": "WCAG2AA",
+        "chromeLaunchConfig": {
+            "args": [
+                "--no-sandbox"
+            ]
+        }
+    },
+    "urls": [
+        {
+            "url": "https://priv.gc.ca/"
+        }
+    ]
+}

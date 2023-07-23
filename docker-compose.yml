@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  pa11y-ci:
+    build: ./pa11y-ci
+    container_name: pa11y-ci
+    volumes:
+      - ./pa11y-ci:/usr/src/app
